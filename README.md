@@ -122,6 +122,10 @@ Type: `string`
 
 URL to an image.
 
+## Related
+
+- [shields.io](http://shields.io/) - SVG template is extracted from this nice service.
+
 ## Contributing
 
 1. Fork it!
