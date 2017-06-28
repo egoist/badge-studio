@@ -1,13 +1,15 @@
 {
   "name": "badge-studio",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Creating a simple badge.",
   "repository": {
     "url": "egoist/badge-studio",
     "type": "git"
   },
   "main": "lib/index.js",
-  "files": ["lib"],
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "test": "jest && npm run lint",
     "lint": "xo"
@@ -27,6 +29,8 @@
   },
   "xo": {
     "extends": "rem/prettier",
-    "envs": ["jest"]
+    "envs": [
+      "jest"
+    ]
   }
 }
