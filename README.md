@@ -40,13 +40,15 @@ Choose a badge template.
 
 ##### color
 
-Type: `string`
+Type: `string`<br>
+Default: `#fff`
 
 Text color for both `subject` and `status`.
 
 ##### shadowColor
 
-Type: `string`
+Type: `string`<br>
+Default: `#010101`
 
 Shadow color for both `subject` and `status`. **No shadow in *square* template**.
 
