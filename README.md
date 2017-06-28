@@ -13,7 +13,7 @@ yarn add badge-studio
 ```js
 const badge = require('badge-studio')
 
-const buildPassing = badge({
+badge({
   subject: 'build',
   status: 'passing'
 })
@@ -22,7 +22,26 @@ const buildPassing = badge({
 
 Then you will get an SVG string which renders:
 
-<img src="https://ooo.0o0.ooo/2017/06/28/59536f4dd014a.png" height="40" />
+<img src="https://ooo.0o0.ooo/2017/06/28/595378ca91aae.png" height="30" />
+
+##
+
+Or add a logo:
+
+```js
+badge({
+  logo: 'https://vuejs.org/images/logo.png'
+  subject: 'vue',
+  status: {
+    text: '^2.0.0',
+    bgColor: '#ff69b4'
+  }
+})
+```
+
+And you get:
+
+<img src="https://ooo.0o0.ooo/2017/06/28/595378b12e9c8.png" height="30" />
 
 ## API
 
@@ -92,6 +111,16 @@ Default: `Helvetica-Bold`<br>
 See: https://github.com/devongovett/pdfkit/blob/master/docs/text.coffee.md#fonts
 
 Use specific font for text.
+
+##### logo
+
+Type: `string` `object`
+
+###### url
+
+Type: `string`
+
+URL to an image.
 
 ## Contributing
 
