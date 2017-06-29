@@ -18,6 +18,11 @@ yarn add badge-studio
 ```js
 const badge = require('badge-studio')
 
+// Optional
+badge.loadFont('/path/to/Verdana.ttf', err => {
+  // optional error callback
+})
+
 badge({
   subject: 'build',
   status: 'passing'
@@ -118,25 +123,6 @@ Type: `string` `object`
 Type: `string`
 
 URL to an image.
-
-##### font
-
-Type: `string` `Object`<br>
-See: https://github.com/devongovett/pdfkit/blob/master/docs/text.coffee.md#fonts
-
-###### name
-
-Type: `string`<br>
-Default: `Open Sans`
-
-The font name we use in SVG.
-
-###### path
-
-Type: `string`<br>
-Default: `/path/to/OpenSans-Regular.ttf`
-
-If you're using a font that is not supported by PDFKit natively, you need to set the path to it.
 
 ## Related
 
