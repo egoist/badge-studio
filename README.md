@@ -116,6 +116,13 @@ Type: `string`
 
 URL to an image.
 
+##### font
+
+Type: `string`<br>
+Default: `Helvetica-Bold`
+
+The font we use to measure text width.
+
 ## Related
 
 - [shields.io](http://shields.io/) - SVG template is extracted from this nice service.
