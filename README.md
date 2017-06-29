@@ -104,14 +104,6 @@ Type: `string`
 
 Shadow color for `subject` or `status`.
 
-##### font
-
-Type: `string`<br>
-Default: `Helvetica-Bold`<br>
-See: https://github.com/devongovett/pdfkit/blob/master/docs/text.coffee.md#fonts
-
-Use specific font for text.
-
 ##### logo
 
 Type: `string` `object`
