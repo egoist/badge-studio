@@ -35,7 +35,7 @@ badge({
   logo: 'https://vuejs.org/images/logo.png',
   subject: 'vue',
   status: {
-    text: '^2.3.0',
+    text: '^2.3',
     bgColor: '#ff69b4'
   }
 })
