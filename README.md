@@ -124,15 +124,16 @@ See: https://github.com/devongovett/pdfkit/blob/master/docs/text.coffee.md#fonts
 ###### name
 
 Type: `string`<br>
-Default: `Helvetica-Bold`
+Default: `Open Sans`
 
 The font name we use in SVG.
 
 ###### path
 
-Type: `string`
+Type: `string`<br>
+Default: `/path/to/OpenSans-Regular.ttf`
 
-If the font is not installed on your system, you can specify the path to it.
+If you're using a font that is not supported by PDFKit natively, you need to set the path to it.
 
 ## Related
 
