@@ -118,10 +118,21 @@ URL to an image.
 
 ##### font
 
+Type: `string` `Object`<br>
+See: https://github.com/devongovett/pdfkit/blob/master/docs/text.coffee.md#fonts
+
+###### name
+
 Type: `string`<br>
 Default: `Helvetica-Bold`
 
-The font we use to measure text width.
+The font name we use in SVG.
+
+###### path
+
+Type: `string`
+
+If the font is not installed on your system, you can specify the path to it.
 
 ## Related
 
