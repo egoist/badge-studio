@@ -2,6 +2,9 @@
 
 [![NPM version](https://img.shields.io/npm/v/badge-studio.svg?style=flat)](https://npmjs.com/package/badge-studio) [![NPM downloads](https://img.shields.io/npm/dm/badge-studio.svg?style=flat)](https://npmjs.com/package/badge-studio) [![CircleCI](https://circleci.com/gh/egoist/badge-studio/tree/master.svg?style=shield)](https://circleci.com/gh/egoist/badge-studio/tree/master)  [![donate](https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&style=flat)](https://github.com/egoist/donate)
 
+
+See [gh-badges](https://github.com/badges/shields/blob/15f24fbcce7b0ef58d029ac16eb2f83dc808ec5b/INSTALL.md#install-the-api) for a more stable version.
+
 ## Install
 
 ```bash
