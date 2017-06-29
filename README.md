@@ -10,6 +10,8 @@ yarn add badge-studio
 
 ## Usage
 
+[You can try it online in the browser!](https://runkit.com/embed/vsnm4toslu49)
+
 ```js
 const badge = require('badge-studio')
 
@@ -30,10 +32,10 @@ Or add a logo:
 
 ```js
 badge({
-  logo: 'https://vuejs.org/images/logo.png'
+  logo: 'https://vuejs.org/images/logo.png',
   subject: 'vue',
   status: {
-    text: '^2.0.0',
+    text: '^2.3.0',
     bgColor: '#ff69b4'
   }
 })
